@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Investment Calculator</title>
+<link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<header>
+<h1>💰 Investment Calculator</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="learning.html">Learning</a>
+<a href="investment.html">Investments</a>
+<a href="calculator.html">Calculator</a>
+</nav>
+</header>
+<section class="calculator">
+<h2>Estimate Your Investment Growth</h2>
+<div class="box">
+<label>Investment Amount (₹)</label>
+<input type="number" id="amount" placeholder="Enter amount">
+<label>Interest Rate (%)</label>
+<input type="number" id="rate" placeholder="Enter annual rate">
+<label>Investment Time (Years)</label>
+<input type="number" id="years" placeholder="Enter years">
+<button onclick="calculateInvestment()">Calculate</button>
+<h3 id="result"></h3>
+</div>
+</section>
+<script src="calc.js"></script>
+</body>
+</html>
